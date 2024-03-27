@@ -7,13 +7,18 @@ body {
 }
 .cabecalho {
     background-color: #000000;
-    color: rgb(46, 0, 250);
+    color: rgb(229, 255, 0);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 24px 0;
 }
-
+#img_redonda{
+    height: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid rgb(251, 255, 0);
+}
 .cabecalho-imagem{
     width: 20%;
 }
@@ -29,8 +34,8 @@ body {
 }
 
 .escola{
-    background-image: linear-gradient(#2f00ff,#c57575);
-    color:rgb(0, 0, 0);
+    background-image: linear-gradient(#2f00ff,#2f00ff);
+    color:rgb(255, 238, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +81,7 @@ body {
 }
 
 .rodape{
-    background-color: rgb(25, 0, 255);
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
 
